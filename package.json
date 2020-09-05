@@ -1,0 +1,24 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "Jwt Authenticased based Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arindam-Neel-X7/JWT.git"
+  },
+  "author": "Neel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arindam-Neel-X7/JWT/issues"
+  },
+  "homepage": "https://github.com/Arindam-Neel-X7/JWT#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3"
+  }
+}
