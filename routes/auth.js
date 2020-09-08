@@ -11,7 +11,7 @@ router.post('/register', function (req,res){
 
 // Checking if the User already exist in our database or not
 User.findOne({email: req.body.email}, function(err,emailExist){
-  if (err) {
+  if (emailExist) {
       return res.status(400).send("Email already exists.");
 }
 else {
@@ -35,4 +35,6 @@ bcrypt.genSalt(10, function(err, salt) {
   }
 });
 });
+
+
 module.exports = router;
